@@ -1,0 +1,19 @@
+❯ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 14, 2026 - 12:41:01
+Django version 6.1, using settings 'djangoproj.settings'
+Starting WSGI development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.1/howto/deployment/
+[14/Aug/2026 12:41:35] "GET / HTTP/1.1" 200 2679
+[14/Aug/2026 12:41:35] "GET /static/bootstrap.min.css HTTP/1.1" 200 155800
+[14/Aug/2026 12:41:35] "GET /static/style.css HTTP/1.1" 200 1918
+[14/Aug/2026 12:41:35] "GET /static/car_dealership.jpg HTTP/1.1" 200 263696
+Not Found: /favicon.ico
+[14/Aug/2026 12:41:36] "GET /favicon.ico HTTP/1.1" 404 2773
+

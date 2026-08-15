@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Sobre Nós</title>
+  </head>
+
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          
+            <img class="img-logo" src="logo-omnidrive.png" alt="OmniDrive" srcset="">
+          
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/"
+                  >Página Inicial</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/about">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="banner" id="about-header">
+      <!-- [Card] Cria um card com sombra pequena sem borda e arredondado -->
+      <div class="card shadow-sm border-0 rounded-3">
+        <!-- [Cabeçalho do card] Fundo padrão BS (azul), texto branco e centralizado, com espaçamento interno grande (24px | 1.5rem) em cima e embaixo , e bordas arredondadas médias -->
+        <div
+          class="card-header bg-primary text-white text-center py-4 rounded-top-3"
+        >
+          <h2 class="h3 mb-2 fw-bold">Sobre a OmniDrive</h2>
+          <p class="lead mb-0 text-white-75">
+            Conectando você ao seu próximo veículo com total transparência.
+          </p>
+        </div>
+
+        <!-- [Corpo do Cartão (Conteúdo)] Tamanho Grande(24px | 1.5rem) em telas pequenas e para telas maiores que 768px o tamanho máximo (48px | 3rem)-->
+        <div class="card-body p-4 p-md-5">
+          <!--  Cria uma linha empurrando os itens posteriores para baixo (48px | 3rem) e centraliza as colunas (blocos) dentro dessa linha-->
+          <div class="row mb-5 justify-content-center">
+            <!-- Define uma coluna 10 das 12 partes do grid (cerca de 83% da largura total  -->
+            <div class="col-lg-10"></div>
+            <!-- Define que a fonte do paragráfo terá tamanho equivalente a um <h5/> (1.25rem | 20px) e torna ele cinza-->
+            <p class="fs-5 text-secondary">
+              A <strong class="text-dark">OmniDrive</strong> é uma sólida rede
+              de concessionárias presente com diversas filiais por todo o
+              Brasil, unindo a força do atendimento presencial à transparência
+              do ambiente digital.
+            </p>
+
+            <!-- Mantém a formatação do parágrafo anterior e adiciona um afastamento máximo (3rem | 48px) para os itens abaixo-->
+            <p class="fs-5 text-secondary mb-5">
+              Para nós, o processo de compra automotiva transcende a operação
+              comercial, constituindo uma relação de confiança a longo prazo.
+              Estruturamos nossa presença em território nacional sobre pilares
+              de integridade e inovação, disponibilizando uma plataforma
+              centralizada de auditoria social onde dados, relatos e avaliações
+              autênticas de clientes asseguram previsibilidade e credibilidade
+              em cada negócio.
+            </p>
+          </div>
+
+          <!-- Afasta o próximo container o máximo possivel do itens posteriores -->
+          <div class="mb-5">
+            <!-- Titulo (estrutural em h3, com visual de h4) centralizado em negrito com tamanho de 1.5rem (ou 24px) de cor preta e dando um empurrão inferior de 1.5rem (ou 24px) -->
+            <h3 class="h4 fw-bold text-dark text-center mb-4">
+              Nossos Pilares
+            </h3>
+
+            <!-- Cria um container em forma de linha com um espaçamento entre colunas e linhas de 1.5rem (ou 24px)-->
+            <div class="row g-4">
+              <!-- Define que esta coluna ocupará 1/3 do grid para telas maiores que 768px-->
+              <div class="col-md-4">
+                <!-- Define o espaçamento interno de 1rem com fundo cinza claro, altura de 100% do container, arredondado com 0.5rem (8px) e com borda-->
+                <div class="p-3 h-100 bg-light rounded-3 border">
+                  <!--Titulo com estrutura de h4 e visual de h6, em negrito e com cor azul-->
+                  <h4 class="h6 fw-bold text-primary">
+                    🛡️ Governança & Conformidade
+                  </h4>
+
+                  <!--Paragrafo com texto pequeno (14px) cor Cinza suave e deixando os itens abaixo bem próximo sem margem -->
+                  <p class="small text-muted mb-0">
+                    Operamos sob rigorosos padrões de integridade e auditoria de
+                    processos em todas as filiais, assegurando conformidade
+                    jurídica, procedência veicular e segurança institucional em
+                    cada negociação.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="p-3 h-100 bg-light rounded-3 border">
+                  <h4 class="h6 fw-bold text-primary">
+                    🌐 Transparência & Dados Auditados
+                  </h4>
+                  <p class="small text-muted mb-0">
+                    Disponibilizamos um canal aberto e auditável de avaliações
+                    verificadas de nossos clientes, garantindo acesso público a
+                    métricas de desempenho de atendimento e qualidade de estoque
+                    por unidade.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="p-3 h-100 bg-light rounded-3 border">
+                  <h4 class="h6 fw-bold text-primary">
+                    ⚡ Eficiência & Padronização Nacional
+                  </h4>
+                  <p class="small text-muted mb-0">
+                    Integramos a infraestrutura física de nossa rede por meio de
+                    tecnologia centralizada, garantindo agilidade no fluxo de
+                    atendimento e uniformidade na entrega de serviços de ponta a
+                    ponta.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cria um carrossel para colocar as fotos da equipe -->
+
+          <div class="row justify-content-center my-5 w-100vh">
+            <div class="col-12 col-md-6 col-lg-5">
+              <div id="img-carousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicadores: Agora com 5 botões para corresponder às 5 imagens -->
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#img-carousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#img-carousel"
+                    data-bs-slide-to="1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#img-carousel"
+                    data-bs-slide-to="2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#img-carousel"
+                    data-bs-slide-to="3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#img-carousel"
+                    data-bs-slide-to="4"
+                  ></button>
+                </div>
+
+                <!-- Conteúdo do carrossel com cantos arredondados e sombra -->
+                <div class="carousel-inner rounded-3 shadow">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <img
+                      src="persons/dir-exec-carlos-almeida.jpg"
+                      class="d-block w-100"
+                      alt="Diretor Executivo - Carlos Almeida"
+                    />
+
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white py-2 px-3 mb-3"
+                      >
+                        <h4 class="h5 fw-bold mb-0">Carlos Almeida</h4>
+                      </div>
+
+                      <p class="text-primary small fw-semibold mb-2">
+                        Diretor Executivo
+                      </p>
+
+                      <p class="card-text text-secondary small mb-1 p-3">
+                        Lidera a expansão estratégica e a consolidação da rede
+                        OmniDrive em território nacional. Garante a integridade
+                        operacional e a visão de longo prazo da companhia.
+                      </p>
+
+                      <p class="small mb-5">
+                        <strong>E-mail</strong>: carlos.almeida@omnidrive.com.br
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img
+                      src="persons/gov-manager-mariana-costa.png"
+                      class="d-block w-100"
+                      alt="Gerente de Governança - Mariana Costa"
+                    />
+
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white py-2 px-3 mb-3"
+                      >
+                        <h4 class="h5 fw-bold mb-0">Mariana Costa</h4>
+                      </div>
+
+                      <p class="text-primary small fw-semibold mb-2">
+                        Gerente de Governança
+                      </p>
+
+                      <p class="card-text text-secondary small mb-1 p-3">
+                        Supervisiona os processos de auditoria, conformidade jurídica e validação de procedência veicular. Assegura a aplicação rigorosa das diretrizes éticas em todas as filiais.
+                      </p>
+
+                      <p class="small mb-5">
+                        <strong>E-mail</strong>: mariana.costa@omnidrive.com.br
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img
+                      src="persons/cx-manager-juliana-santos.png"
+                      class="d-block w-100"
+                      alt="Gerente de CX - Juliana Santos"
+                    />
+
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white py-2 px-3 mb-3"
+                      >
+                        <h4 class="h5 fw-bold mb-0">Juliana Santos</h4>
+                      </div>
+
+                      <p class="text-primary small fw-semibold mb-2">
+                        Gerente de CX
+                      </p>
+
+                      <p class="card-text text-secondary small mb-1 p-3">
+                        Coordena os canais de ouvidoria, mediação de feedbacks e auditoria de avaliações dos clientes. Garante excelência e transparência nas jornadas de atendimento e pós-venda.
+
+                      </p>
+
+                      <p class="small mb-5">
+                        <strong>E-mail</strong>: juliana-santos@omnidrive.com.br
+                      </p>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img
+                      src="persons/data-manager-rafael-mendes.png"
+                      class="d-block w-100"
+                      alt="Gerente de Dados - Rafael Mendes"
+                    />
+
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white py-2 px-3 mb-3"
+                      >
+                        <h4 class="h5 fw-bold mb-0">Rafael Mendes</h4>
+                      </div>
+
+                      <p class="text-primary small fw-semibold mb-2">
+                        Gerente de Tecnologia & Dados
+                      </p>
+
+                      <p class="card-text text-secondary small mb-1 p-3">
+                        Gerencia a infraestrutura digital e os sistemas integrados de estoques e avaliações. Responsável pela segurança de dados e inovação contínua da plataforma.
+
+                      </p>
+
+                      <p class="small mb-5">
+                        <strong>E-mail</strong>: rafael-mendes@omnidrive.com.br
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img
+                      src="persons/sales-manager-lucas-ferreira.png"
+                      class="d-block w-100"
+                      alt="Gerente de Vendas - Lucas Ferreira"
+                    />
+
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white py-2 px-3 mb-3"
+                      >
+                        <h4 class="h5 fw-bold mb-0">Lucas Ferreira</h4>
+                      </div>
+
+                      <p class="text-primary small fw-semibold mb-2">
+                       Gerente de Vendas
+                      </p>
+
+                      <p class="card-text text-secondary small mb-1 p-3">
+                        Alinha as equipes comerciais de todas as concessionárias aos padrões de atendimento da rede. Focado em negociações transparentes e soluções personalizadas para compradores e frotistas.
+
+                      </p>
+
+                      <p class="small mb-5">
+                        <strong>E-mail</strong>: lucas-ferreira@omnidrive.com.br
+                      </p>
+                    </div>
+
+                    
+                  </div>
+                </div>
+
+                <!-- Controles de Seta -->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#img-carousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#img-carousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Próximo</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer p-4 p-md-5">
+          <!-- Container de encerramento com fundo cinza claro, espaçamento interno de  1.5rem (ou 24px) cantos arredondados de 0.5rem (8px) e barra vertical azul com 4px de espessura na esquerda -->
+          <div
+            class="bg-light p-4 rounded-3 border-start border-primary border-4"
+          >
+            <!-- Titulo estrutural de h3 com visual de h5, negrito, em cor preta com margem inferior de 0.5rem (ou 8px) -->
+            <h3 class="h5 fw-bold text-dark mb-2">Nossa Missão</h3>
+
+            <!-- Cria um campo de citação com margem inferior nula, fonte com 6px de cor cinza claro e itálica -->
+            <blockquote class="blockquote mb-0 fs-6 text-secondary fst-italic">
+              "Garantir um ambiente de negociação pautado pela ética e
+              conformidade, democratizando o acesso a indicadores reais de
+              desempenho de nossas filiais e procedência veicular, respaldados
+              pela auditoria contínua da experiência de nossos clientes."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
