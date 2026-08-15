@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="shortcut icon" href="../public/favicon.ico" type="image/png" />
+
+    <title>Fale Conosco</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <img
+            class="img-logo"
+            src="logo-omnidrive.png"
+            alt="OmniDrive"
+            srcset=""
+          />
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/"
+                  >Página Inicial</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">Sobre Nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/contact">Fale Conosco</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container my-5 w-100vh" id="contact-page">
+      <div class="container my-4">
+        <div class="rounded-3 overflow-hidden shadow-sm">
+          <img
+            src="contact-img.png"
+            class="img-fluid w-100 d-block"
+            alt="Concessionária OmniDrive"
+            id="contact-img"
+          />
+        </div>
+      </div>
+
+      <article class="card shadow-sm border-0 rounded-3">
+        <div
+          class="card-header bg-success text-white text-center py-4 rounded-top-3"
+        >
+          <h2 class="h3 mb-2 fw-bold">Fale com a OmniDrive</h2>
+          <p class="lead mb-0 text-white-75">
+            Selecione a filial mais próxima ou fale diretamente com a nossa
+            ouvidoria.
+          </p>
+        </div>
+
+        <div class="card-body bg-light">
+          <div class="mb-3">
+            <div class="text-center">
+              <span
+                class="badge bg-success-subtitle text-success border border-success px-3 py-2 rounded-pill mb-2"
+              >
+                Atendimento Oficial & Suporte
+              </span>
+            </div>
+
+            <div class="row g-4 align-items-start">
+              <div class="col-md-6">
+                <div
+                  class="card bg-white border shadow-sm p-4 p-md-5 rounded-3"
+                >
+                  <h2 class="h5 fw-bold text-dark text-center mb-0">
+                    Envie uma Mensagem
+                  </h2>
+                  <form>
+                    <div class="row g-2">
+                      <div class="col-md-12">
+                        <label class="form-label small fw-semibold text-dark"
+                          >Nome Completo</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          placeholder="Seu nome"
+                          required
+                        />
+                      </div>
+
+                      <div class="col-md-6">
+                        <label class="form-label small fw-semibold text-dark"
+                          >E-mail</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="seuemail@exemplo.com"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label class="form-label small fw-semibold text-dark"
+                          >WhatsApp</label
+                        >
+                        <input
+                          type="tel"
+                          class="form-control"
+                          placeholder="(00) 00000-0000"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-12">
+                        <label class="form-label small fw-semibold text-dark"
+                          >Filial / Estado de Atendimento</label
+                        >
+
+                        <select class="form-select form-select-sm">
+                          <option selected>
+                            Selecione a filial mais próxima...
+                          </option>
+                          <optgroup label="Região Nordeste">
+                            <option value="ce-cariri">
+                              Juazeiro do Norte - CE (Triângulo)
+                            </option>
+                            <option value="ce-fortaleza">
+                              Fortaleza - CE (Aldeota)
+                            </option>
+                            <option value="pe-moreilandia">
+                              Moreilândia - PE (Centro)
+                            </option>
+                            <option value="pe-recife">
+                              Recife - PE (Boa Viagem)
+                            </option>
+                            <option value="ba-salvador">
+                              Salvador - BA (Horto Florestal)
+                            </option>
+                            <option value="ba-juazeiro">
+                              Juazeiro - BA (Malhada da Areia)
+                            </option>
+                            <option value="rn-natal">Natal - RN (Tirol)</option>
+                            <option value="pb-joaopessoa">
+                              João Pessoa - PB (Manaíra)
+                            </option>
+                            <option value="ma-saoluis">
+                              São Luís - MA (Renascença)
+                            </option>
+                            <option value="al-maceio">
+                              Maceió - AL (Ponta Verde)
+                            </option>
+                            <option value="se-aracaju">
+                              Aracaju - SE (Jardins)
+                            </option>
+                            <option value="pi-teresina">
+                              Teresina - PI (Jóquei)
+                            </option>
+                          </optgroup>
+                          <optgroup label="Região Centro-Oeste">
+                            <option value="df-brasilia">
+                              Brasília - DF (Asa Sul / Lago Sul)
+                            </option>
+                            <option value="go-goiania">
+                              Goiânia - GO (Setor Bueno)
+                            </option>
+                            <option value="mt-cuiaba">
+                              Cuiabá - MT (Goiabeiras)
+                            </option>
+                            <option value="ms-campogrande">
+                              Campo Grande - MS (Chácara Cachoeira)
+                            </option>
+                          </optgroup>
+                          <optgroup label="Região Norte">
+                            <option value="am-manaus">
+                              Manaus - AM (Adrianópolis)
+                            </option>
+                            <option value="pa-belem">
+                              Belém - PA (Nazaré)
+                            </option>
+                            <option value="to-palmas">
+                              Palmas - TO (Graciosa)
+                            </option>
+                            <option value="ro-portovelho">
+                              Porto Velho - RO
+                            </option>
+                            <option value="ac-riobranco">
+                              Rio Branco - AC
+                            </option>
+                            <option value="ap-macapa">Macapá - AP</option>
+                            <option value="rr-boavista">Boa Vista - RR</option>
+                          </optgroup>
+                          <optgroup label="Região Sul">
+                            <option value="pr-curitiba">
+                              Curitiba - PR (Batel / Ecoville)
+                            </option>
+                            <option value="sc-florianopolis">
+                              Florianópolis - SC (Beira-Mar)
+                            </option>
+                            <option value="rs-portoalegre">
+                              Porto Alegre - RS (Moinhos de Vento)
+                            </option>
+                          </optgroup>
+                          <optgroup label="Região Sudeste">
+                            <option value="sp-capital">
+                              São Paulo - SP (Jardins / Morumbi / Tatuapé)
+                            </option>
+                            <option value="sp-interior">
+                              Campinas / Ribeirão Preto - SP
+                            </option>
+                            <option value="rj-capital">
+                              Rio de Janeiro - RJ (Barra da Tijuca / Botafogo)
+                            </option>
+                            <option value="mg-bh">
+                              Belo Horizonte - MG (Savassi)
+                            </option>
+                            <option value="es-vitoria">
+                              Vitória - ES (Enseada do Suá)
+                            </option>
+                          </optgroup>
+                        </select>
+                      </div>
+                      <div class="col-12">
+                        <label class="form-label small fw-semibold text-dark"
+                          >Assunto / Departamento</label
+                        >
+                        <select class="form-select form-select-sm">
+                          <option selected>
+                            Consulta sobre Veículo / Estoque
+                          </option>
+                          <option value="posvenda">
+                            Pós-Venda e Manutenção
+                          </option>
+                          <option value="corporativo">
+                            Vendas Diretas / Frotas
+                          </option>
+                        </select>
+                      </div>
+                      <div class="col-12">
+                        <label class="form-label small fw-semibold text-dark"
+                          >Mensagem</label
+                        >
+                        <textarea
+                          class="form-control form-control-sm"
+                          rows="4"
+                          placeholder="Descreva sua solicitação com detalhes..."
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="col-12 mt-4">
+                        <button
+                          type="submit"
+                          class="btn btn-primary w-100 py-2 fw-semibold"
+                        >
+                          Enviar Solicitação
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card bg-white border shadow-sm p-4 rounded-3">
+                  <h3 class="h6 fw-bold text-dark mb-3">Canais Centrais</h3>
+                  <div class="mb-3">
+                    <p class="small fw-bold text-dark mb-0">
+                      Central Telefônica Nacional:
+                    </p>
+                    <p class="small text-secondary mb-0">
+                      0800 591 0000 | (11) 4004-9000
+                    </p>
+                  </div>
+                  <div class="mb-2">
+                    <p class="small fw-bold text-dark mb-0">
+                      E-mail de Ouvidoria:
+                    </p>
+                    <p class="small text-secondary mb-0">
+                      ouvidoria@omnidrive.com.br
+                    </p>
+                  </div>
+                  <div class="mb-4">
+                    <p class="small fw-bold text-dark mb-0">
+                      Horário de Funcionamento:
+                    </p>
+                    <p class="small text-secondary mb-0">
+                      Segunda a Sexta: 08h às 19h | Sábados: 09h às 14h
+                    </p>
+                  </div>
+                  <hr class="text-secondary opacity-25 my-3" />
+                  <div class="mb-5">
+                    <p class="small fw-bold text-dark mb-1">
+                      Sede Corporativa:
+                    </p>
+                    <p class="small text-secondary mb-0">
+                      Av. Padre Cicero, KM 0 — Triângulo, Juazeiro do Norte -CE
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="card bg-white border shadow-sm p-3 p-md-5 rounded-3"
+                >
+                  <h3 class="h5 fw-bold text-dark text-center mb-0">
+                    Atendimento Rápido via WhatsApp
+                  </h3>
+                  <p class="small text-secondary mb-3">
+                    Conecte-se instantaneamente com um consultor da sua região.
+                  </p>
+
+                  <a href="#" class="btn btn-primary fw-semibold w-100 py-2">
+                    Iniciar Conversa no WhatsApp
+                  </a>
+                </div>
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

@@ -67,7 +67,25 @@
 }
 
 
+input::placeholder{
+  font-size: 14px;
+}
 
+select {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#contact-img{
+  
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  position: relative;
+  object-position:  50%;
+  
+}
 
 
 
